@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Product List</title>
+</head>
+<body>
+    <h1>Product List</h1>
+    <a href="{{ url_for('add_product') }}">Add New Product</a>
+    <ul>
+        {% for product in products %}
+            <li>
+                <img src="{{ url_for('static', filename='uploads/' ~ product.image) }}" width="100" height="100">
+                {{ product.name }} - {{ product.count }} - {{ product.expired_date }} - {{ product.location }}
+                <a href="{{ url_for('remove_product') }}">Remove Product</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
