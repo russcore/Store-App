@@ -78,6 +78,24 @@
       <option name="presentableId" value="Default" />
       <updated>1721480927329</updated>
     </task>
+    <task id="LOCAL‎00001" summary="sizedb">
+      <created>1731674579236</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1731674579236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
